@@ -14,7 +14,7 @@ export class DataserviceService {
   backend: string;
 
   constructor(private httpClient: HttpClient) {
-    this.backend = 'https://obscure-tundra-64771.herokuapp.com/';
+    this.backend = 'https://stark-refuge-33389.herokuapp.com/';
   }
 
   getRestaurants(): Observable<RestaurantModel[]> {
